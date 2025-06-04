@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sonij Shrestha's Newspaper Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f9fc;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #0066cc;
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.1rem;
+        }
+
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .article {
+            width: 100%;
+            max-width: 500px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .article h2 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-top: 0;
+        }
+
+        .article p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .article a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #0066cc;
+            font-weight: bold;
+        }
+
+        .categories {
+            background-color: #e6f7ff;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .categories h3 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .categories ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .categories li {
+            font-size: 1.1rem;
+            padding: 5px 0;
+        }
+
+        .categories a {
+            text-decoration: none;
+            color: #0066cc;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #666;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #e6f7ff;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+            }
+
+            .article {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>Sonij Shrestha's Newspaper Blog</h1>
+            <p>Latest Updates and Insights from a Software Development Enthusiast</p>
+        </header>
+
+        <!-- Categories Section -->
+        <section class="categories">
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Software Development</a></li>
+                <li><a href="#">Coding Tutorials</a></li>
+                <li><a href="#">Web Development</a></li>
+            </ul>
+        </section>
+
+        <!-- Main Content (Articles) Section -->
+        <div class="main-content">
+            <!-- Article 1 -->
+            <div class="article">
+                <h2>Why Every Developer Should Learn React</h2>
+                <p>React has become one of the most popular JavaScript libraries for building user interfaces. In this article, we will explore why React is a must-learn for aspiring developers and how it can enhance your front-end development skills...</p>
+                <a href="#">Read more</a>
+            </div>
+
+            <!-- Article 2 -->
+            <div class="article">
+                <h2>Top 5 Programming Languages to Learn in 2025</h2>
+                <p>As the tech industry evolves, it’s important to stay updated with the most in-demand programming languages. Here are the top 5 programming languages you should consider learning in 2025...</p>
+                <a href="#">Read more</a>
+            </div>
+
+            <!-- Article 3 -->
+            <div class="article">
+                <h2>Intro to Web Development: Getting Started with HTML & CSS</h2>
+                <p>If you're new to web development, HTML and CSS are the building blocks you need to get started. In this article, we’ll walk through the basics of web development and create your first web page...</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2025 Sonij Shrestha. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>

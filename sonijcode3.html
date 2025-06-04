@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Online Newspaper</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #ffffff;
+            border-bottom: 2px solid #ddd;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo h1 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        header nav ul li {
+            margin-right: 20px;
+        }
+
+        header nav ul li:last-child {
+            margin-right: 0;
+        }
+
+        /* Main Content Styles */
+        main {
+            padding: 20px;
+        }
+
+        .hero {
+            background-color: #007bff;
+            color: white;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .hero .read-more {
+            font-size: 18px;
+            background-color: white;
+            color: #007bff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+        .latest-news {
+            margin-top: 30px;
+        }
+
+        .latest-news h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .news-item {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            margin-bottom: 15px;
+            padding: 20px;
+        }
+
+        .news-item h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .news-item p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        .news-item a {
+            font-size: 16px;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #ffffff;
+            border-top: 2px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>New York Times</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">World</a></li>
+                <li><a href="#">Politics</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Science</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Breaking News: Major World Event</h2>
+            <p>New break through in Quantum technology.</p>
+            <a href="#" class="read-more">Read More</a>
+        </section>
+
+        <section class="latest-news">
+            <h2>Latest News</h2>
+            <div class="news-item">
+                <h3>Headline 1: Russia makesa breakthrough Cancer vaccine </h3>
+                <p>due to new advancement in technologies. Read more to see full article...</p>
+                <a href="#">Read more</a>
+            </div>
+            <div class="news-item">
+                <h3>Headline 2: Deal between china and US</h3>
+                <p>china and the US declare partnership. Read more to see full article...</p>
+                <a href="#">Read more</a>
+            </div>
+            <div class="news-item">
+                <h3>Headline 3: Advancement in AI</h3>
+                <p>Better research in AI lead to. Read more to see full article...</p>
+                <a href="#">Read more</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 New York Times. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
